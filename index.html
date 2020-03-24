@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <title>Pic Project</title>
   </head>
   <body>
@@ -64,32 +65,32 @@
   <div class="container-fluid pt-5 pb-5">
     <div class="card-deck">
         <div class="card text-center border-0">
-          <div pb-5>
-          <img src="images/42724004-time-settings-icon-this-flat-rounded-square-button-uses-red-and-white-colors-and-isolated-on-a-black.jpg" class="rounded-circle img-fluid img-responsive" alt="..." height="100"width="100">
+          <div pb-5 class="icon-color">
+            <i class="fas fa-cogs icon"></i>
         </div>
           <div class="card-body pt-5">
             <h5 class="card-title">CREATIVE SOLUTIONS</h5>
           </div>
         </div>
         <div class="card text-center border-0">
-          <div>
-          <img src="images/leaf.png" class="rounded-circle img-fluid img-responsive" alt="..." height="100"width="100">
+          <div class="icon-color">
+            <i class="fas fa-leaf icon"></i>
         </div>
           <div class="card-body pt-5">
             <h5 class="card-title">CREATIVE SOLUTIONS</h5>
           </div>
         </div>
         <div class="card text-center border-0">
-          <div>
-          <img src="images/red-heart.png" class="rounded-circle img-fluid img-responsive" alt="..." height="100"width="100">
+          <div class="icon-color">
+            <i class="fas fa-heart icon"></i>
         </div>
           <div class="card-body pt-5">
             <h5 class="card-title">CREATIVE SOLUTIONS</h5>
           </div>
         </div>
         <div class="card text-center border-0">
-          <div>
-          <img src="images/laptop.jpg" class="rounded-circle img-fluid img-responsive" alt="..." height="100"width="100">
+          <div class="icon-color">
+            <i class="fas fa-laptop icon"></i>
         </div>
           <div class="card-body pt-5">
             <h5 class="card-title">CREATIVE SOLUTIONS</h5>
@@ -123,8 +124,8 @@
         <div class="row">
         <div class="col-md-4">
           <div class="media">
-            <div>
-              <img src="images/jet.jpg"   class="img-fluid img responsive rounded-circle" height="100"width="100"></img>
+            <div class="icon-color">
+              <i class="fa fa-rocket icon"></i>
             </div>
   
             <div class="media-body">
@@ -136,8 +137,8 @@
   
         <div class="col-md-4 " data-wow-offset="0" data-wow-delay="0.6s">
           <div class="media">
-            <div>
-              <img src="images/camera.jpg"   class="img-fluid img responsive rounded-circle" height="100"width="100"></img>
+            <div class="icon">
+              
             </div>
   
             <div class="media-body">
@@ -149,8 +150,8 @@
   
         <div class="col-md-4 " >
           <div class="media">
-            <div>
-              <img src="images/red-heart.png"   class="img-fluid img responsive rounded-circle" height="100"width="100"></img>
+            <div class="icon">
+              
             </div>
             <div class="media-body">
               <h4 class="media-heading">Unlimited Possibilities</h4>
@@ -163,7 +164,7 @@
 
 
 
-      <div class="container-fluid py-5 bg-danger">
+      <div class="container-fluid pt-5 bg-danger service">
       <div class="text-center red">
         <div>
           <h2 class="text-light">Easily Customizable & Unlimited Support </h2>
@@ -239,13 +240,20 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4" >
-              <h2 class="text-light">Multi</h2>
+              <h2 class="text-light pb-5">Multi</h2>
               <p class="text-light">In a elit in lorem congue varius. Sed nec arcu. Etiam sit amet augue. Fusce fermen tum neque a rutrum varius odio pede ullamcorp-er tellus ut dignissim nisi risus non tortor. Aliquam mollis neque.</p>
+              <ul>
+                <li class="list-inline-item "><a href="#" data-placement="top" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item "><a href="#" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item "><a href="#" data-placement="top" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                <li class="list-inline-item "><a href="#" data-placement="top" title="Pinterest"><i class="fab fa-pinterest"></i></a></li>
+                <li class="list-inline-item "><a href="#" data-placement="top" title="Google plus"><i class="fab fa-google-plus"></i></a></li>
+              </ul>
             </div>
   
           <div class="col-md-4" >
-            <h3 class="text-light">RECENT POSTS</h3>
-            <ul>
+            <h4 class="text-light pad pb-5">RECENT POSTS</h4>
+            <ul style="list-style-type:none;">
               <li class="text-light list">Awesome Design with Overviews</li>
               <hr>
               <li class="text-light">Great Design with Features </li>
@@ -256,9 +264,9 @@
             </ul>
           </div>
   
-          <div class="col-md-4 wow fadeInUp" >
-            <h3 class="text-light">CONTACT INFO</h3>
-            <ul>
+          <div class="col-md-4" >
+            <h4 class="text-light pad pb-5">CONTACT INFO</h4>
+            <ul style="list-style-type:none;">
               <li class="text-light"> Office # 38, Suite 54 Elizebth Street, Victoria State Newyork, USA 33026</li>
               <hr>
               <li class="text-light"> +38 000 129900</li>
@@ -280,7 +288,7 @@
             </div>
           </div>
           <div class="col-md-6 pt-5">
-            <ul>
+            <ul class="pl-5">
               <li class="list-inline-item "><a class="text-light" href="#">Home</a></li>
               <li class="list-inline-item "><a class="text-light" href="#">Services</a></li>
               <li class="list-inline-item "><a class="text-light" href="#">Blog</a></li>

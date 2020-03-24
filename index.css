@@ -14,3 +14,24 @@ hr{
     background-color: #292929;
     height: 450px;
 }
+.featured-icon {
+    
+    color: red;
+    width: 14px;
+}
+.pad{
+    padding-left: 38px;
+}
+.icon{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: orangered;
+    
+}
+.icon-color{
+    color: white;
+}
+.service{
+    padding-bottom: 50px;
+}
